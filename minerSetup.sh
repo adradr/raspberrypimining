@@ -11,5 +11,6 @@ cd cpuminer-multi
 make
 printf "To use type ./minerd with any options you want while in the cpuminer-multi folder\n"
 printf "For example ./minerd -a cryptonight -o stratum+tcp://xmr-usa.dwarfpool.com:8050 -u 45MfScNnyb3KwanUH4feiDExdydQ3cACKPpJuxmtoVnY25Khw7nBeZmXhtoWj4Pfi4PjdxkFWpaW72PR3Jy1Xr8R6HFyk9M -p x -t 4"
+cd cpuminer-multi/
 ./minerd -D -a cryptonight -o stratum+tcp://xmrpool.eu:3333  -u 44wRHwjVyrXQ8ERmvtTtUmD7tjAJxgCvRd8WKADyU4XoEme4xGmJZkUfMUb1KTB7ChC4QtuarzAPb3DQfsUmWzSR43A28HM+raspiAdr -p x
 fi
